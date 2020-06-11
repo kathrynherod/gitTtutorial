@@ -1,0 +1,252 @@
+<html>
+    <head>
+        <!-- Bootstrap core CSS -->
+        <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Font Awesome core CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    </head>
+
+    <body>
+
+        <header>
+            <!-- Start of Collapsible Header-->
+            <div class="collapse bg-dark" id="navbarHeader">
+                <div class="container">
+                    <div class="row">
+                        <!-- Start of About Section-->
+                        <div class="col-sm-8 col-md-7 py-4">
+                            <h4 class="text-white">About German Shepherds</h4>
+                            <p class="text-muted">
+                                The German Shepherd is a breed of medium to large-sized working dog that originated in Germany.
+                                In the English language, the breed's officially recognized name is German Shepherd Dog (GSD). The
+                                breed was officially known as the Alsatian in the UK from after the First World War until 1977 when
+                                its name was changed back to German Shepherd. Despite its primitive, wolf-like appearance, the
+                                German Shepherd is a relatively modern breed of dog, with their origin dating to 1899.
+                            </p>
+                            <p class="text-muted">
+                                As a herding dog, German Shepherds are working dogs developed originally for herding sheep.
+                                Since that time, however, because of their strength, intelligence, trainability, and obedience,
+                                German Shepherds around the world are often the preferred breed for many types of work, including
+                                disability assistance, search-and-rescue, police and military roles and acting. The German Shepherd
+                                is the second-most registered breed by the American Kennel Club and seventh-most registered breed by
+                                The Kennel Club in the United Kingdom.
+                            </p>
+                        </div><!-- End of about section-->
+                        <!-- Start of Social Networking -->
+                        <div class="col-sm-4 offset-md-1 py-4">
+                            <h4 class="text-white">Follow the dogs...</h4>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="https://twitter.com/hashtag/germanshepherd?lang=en" class="text-white">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i> Twitter
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com/likegsdlovers" class="text-white">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i> Facebook
+                                    </a>
+                                </li>
+                            </ul>
+                        </div> <!--End of social Networking-->
+                    </div>
+                </div>
+            </div><!-- End of Collapsible Header-->
+
+            <!-- Start of NavBar container-->
+            <div class="navbar navbar-dark bg-dark box-shadow">
+                <div class="container d-flex justify-content-between">
+                    <!-- Start of left branding Navbar-->
+                    <a href="#" class="navbar-brand d-flex align-items-center">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="20"
+                            height="20"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="mr-2"
+                        >
+                            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
+                            <circle cx="12" cy="13" r="4"/>
+                        </svg>
+                        <strong>German Shepherd Album</strong>
+                    </a><!-- End Left branding Nav Bar-->
+
+                    <!-- Start of right Navbar Button-->
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#navbarHeader"
+                        aria-controls="navbarHeader"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button> <!--End of right NavBar Button-->
+                </div>
+            </div> <!-- End of NavBar container-->
+        </header>
+
+        <main role="main">
+
+            <section class="jumbotron text-center">
+                <!-- Jumbotron Content-->
+                <div class="container">
+                    <h1 class="jumbotron-heading">German Shepherds</h1>
+                        <p class="lead text-muted">So adorable and fluffy</p>
+                        <p class="lead text-muted">Please enjoy these cute photos</p>
+                </div><!--End Jumbotron Content-->
+            </section>
+
+            <div class="album py-5 bg-light">
+                <div class="container">
+
+                    <div class="row">
+
+                        <!--Start of Card Col-->
+                        <div class="col-md-3">
+                            <div class="card mb-4 box-shadow">
+                                <img
+                                    class="card-img-top"
+                                    src="https://3qtf4e47opxdfvpl33rmjnxd-wpengine.netdna-ssl.com/wp-content/uploads/2019/12/male-vs-female-german-shepherd.jpg"
+                                    alt="Card image cap"
+                                >
+                                <div class="card-body d-flex justify-content-between align-items-center">
+                                    <p class="card-text">I love autumn foliage</p>
+                                    <button
+                                        id="viewImageButton"
+                                        type="button"
+                                        class="btn btn-sm btn-outline-secondary"
+                                        data-toggle="modal"
+                                        data-target="#imageModal"
+                                    >
+                                        View
+                                    </button>
+                                </div>
+                            </div>
+                        </div> <!--End of Card Col-->
+
+                        <!--Start of Card Col-->
+                        <div class="col-md-3">
+                            <div class="card mb-4 box-shadow">
+                                <img
+                                    class="card-img-top"
+                                    src="https://miro.medium.com/max/800/0*LFS-oAro8b1qmeH9.jpg"
+                                    alt="Card image cap"
+                                >
+                                <div class="card-body d-flex justify-content-between align-items-center">
+                                    <p class="card-text">I'm a sweepy wittle puppy</p>
+                                    <button
+                                        id="viewImageButton"
+                                        type="button"
+                                        class="btn btn-sm btn-outline-secondary"
+                                        data-toggle="modal"
+                                        data-target="#imageModal"
+                                    >
+                                        View
+                                    </button>
+                                </div>
+                            </div>
+                        </div> <!--End of Card Col-->
+
+                        <!--Start of Card Col-->
+                        <div class="col-md-3">
+                            <div class="card mb-4 box-shadow">
+                                <img
+                                    class="card-img-top"
+                                    src="https://cff2.earth.com/uploads/2017/07/27130846/German-Shepherd-study-reveals-health-consequences-of-breeding.jpg"
+                                    alt="Card image cap"
+                                >
+                                <div class="card-body d-flex justify-content-between align-items-center">
+                                    <p class="card-text">Look at me run!</p>
+                                    <button
+                                        id="viewImageButton"
+                                        type="button"
+                                        class="btn btn-sm btn-outline-secondary"
+                                        data-toggle="modal"
+                                        data-target="#imageModal"
+                                    >
+                                        View
+                                    </button>
+                                </div>
+                            </div>
+                        </div> <!--End of Card Col-->
+
+                        <!--Start of Card Col-->
+                        <div class="col-md-3">
+                            <div class="card mb-4 box-shadow">
+                                <img
+                                    class="card-img-top"
+                                    src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12193133/German-Shepherd-Puppy-Fetch-500x500.jpg"
+                                    alt="Card image cap"
+                                >
+                                <div class="card-body d-flex justify-content-between align-items-center">
+                                    <p class="card-text">They said I'll grow into my ears</p>
+                                    <button
+                                        id="viewImageButton"
+                                        type="button"
+                                        class="btn btn-sm btn-outline-secondary"
+                                        data-toggle="modal"
+                                        data-target="#imageModal"
+                                    >
+                                        View
+                                    </button>
+                                </div>
+                            </div>
+                        </div> <!--End of Card Col-->
+
+
+
+
+                    </div> <!--End of Row-->
+
+                </div> <!--End of Container-->
+            </div> <!--End of Album Wrapper-->
+
+        </main>
+
+        <footer class="text-muted">
+            <!-- Start Footer Content-->
+            <div class="container">
+                <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
+                <p>New to Bootstrap? <a href="../../">Visit the homepage</a> or read our <a href="../../getting-started/">getting started guide</a>.</p>
+            </div><!-- End Footer Content-->
+        </footer>
+
+        <!-- Modal -->
+        <div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="imageModalLabel"></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img id="modalImg" src="">
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end of modal -->
+
+        <!--Custom JS -->
+        <script src="script.js"></script>
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+        <script src="https://getbootstrap.com/docs/4.0/assets/js/vendor/popper.min.js"></script>
+        <script src="https://getbootstrap.com/docs/4.0/dist/js/bootstrap.min.js"></script>
+        <script src="https://getbootstrap.com/docs/4.0/assets/js/vendor/holder.min.js"></script>
+
+    </body>
+</html>

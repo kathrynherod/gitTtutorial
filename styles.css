@@ -1,0 +1,19 @@
+.jumbotron {
+    padding: 2rem;
+    margin-bottom: 0;
+}
+
+.modal-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p.card-text {
+    margin-right: 0.25rem;
+}
+
+#modalImg {
+    max-width: 100%;
+    height: auto;
+}

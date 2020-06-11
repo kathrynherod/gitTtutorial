@@ -1,0 +1,11 @@
+{
+  "name": "gitTutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/browser-sync start -s -f . --no-notify --host 127.0.0.1 --port 9000 --startPath index.html ./"
+  },
+  "author": "Kathryn Herod",
+  "license": "ISC"
+}

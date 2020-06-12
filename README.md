@@ -31,7 +31,7 @@
 - [ ] 2. Add Social Networking to Collapsible Header
 - [ ] 3. Add left branding to Navbar
 - [ ] 4. Add right button to Navbar
-- [ ] 5. Add Jumbotron Content to Jumbotron `<section>`
+- [x] 5. Add Jumbotron Content to Jumbotron `<section>`
 - [ ] 6. Add Footer Content to `<footer>` tag
 - [ ] 7. Add Modal
 - [x] 8. Add two cards with photos and text (make sure to update the `<img src="">` and `<p class="card-text">`)

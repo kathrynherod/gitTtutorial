@@ -27,7 +27,7 @@
 
 - [x] Create repo and base files
 - [x] Create HTML skeleton, add Bootstrap, custom CSS, and custom JS
-- [ ] 1. Add About Section to Collapsible Header
+- [x] 1. Add About Section to Collapsible Header
 - [ ] 2. Add Social Networking to Collapsible Header
 - [ ] 3. Add left branding to Navbar
 - [ ] 4. Add right button to Navbar

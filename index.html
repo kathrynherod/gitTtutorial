@@ -55,16 +55,43 @@
                 </div>
             </div><!-- End of Collapsible Header-->
 
-            <!-- Start of NavBar container-->
-            <div class="navbar navbar-dark bg-dark box-shadow">
-                <div class="container d-flex justify-content-between">
-                    <!-- Add left branding Navbar here-->
-                    <!-- Add right Navbar Button here-->
-                </div>
-            </div><!-- End of NavBar container-->
-        </header>
+<head>
+    <!-- Bootstrap core CSS -->
+    <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome core CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
 
-        <main role="main">
+<body>
+
+    <header>
+        <!-- Start of Collapsible Header-->
+        <div class="collapse bg-dark" id="navbarHeader">
+            <div class="container">
+                <div class="row">
+                    <!-- Add About Section Here-->
+                    <!-- Add Social Networking Here-->
+                </div>
+            </div>
+        </div>
+        <!-- End of Collapsible Header-->
+
+        <!-- Start of NavBar container-->
+        <div class="navbar navbar-dark bg-dark box-shadow">
+            <div class="container d-flex justify-content-between">
+                <!-- Add left branding Navbar here-->
+                <!-- Start of right Navbar Button-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <!--End of right NavBar Button-->
+            </div>
+        </div>
+        <!-- End of NavBar container-->
+    </header>
 
             <section class="jumbotron text-center">
               <div class="container">
@@ -74,8 +101,9 @@
               </div><!--End Jumbotron Content-->
             </section>
 
-            <div class="album py-5 bg-light">
-                <div class="container">
+        <section class="jumbotron text-center">
+            <!--Jumbotron content here -->
+        </section>
 
                     <div class="row">
                         <!--Start of Card Col-->
@@ -157,10 +185,15 @@
 
                     </div> <!--End of Row-->
 
-                </div> <!--End of Container-->
-            </div> <!--End of Album Wrapper-->
+                <div class="row">
+                    <!--Add Card Cols here-->
+                </div>
+                <!--End of Row-->
 
-        </main>
+            </div>
+            <!--End of Container-->
+        </div>
+        <!--End of Album Wrapper-->
 
         <footer class="text-muted">
             <div class="container">
@@ -188,10 +221,14 @@
             </div>
         <!-- End of Modal -->
 
+    <!-- Modal -->
+    <!--Add Modal Here -->
+    <!-- End of Modal -->
 
-        <!--Custom JS -->
-        <script src="script.js"></script>
-        <!-- Bootstrap core JavaScript
+
+    <!--Custom JS -->
+    <script src="script.js"></script>
+    <!-- Bootstrap core JavaScript
         ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

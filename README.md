@@ -32,7 +32,7 @@
 - [ ] 3. Add left branding to Navbar
 - [ ] 4. Add right button to Navbar
 - [x] 5. Add Jumbotron Content to Jumbotron `<section>`
-- [ ] 6. Add Footer Content to `<footer>` tag
+- [x] 6. Add Footer Content to `<footer>` tag
 - [x] 7. Add Modal
 - [x] 8. Add two cards with photos and text (make sure to update the `<img src="">` and `<p class="card-text">`)
 - [x] 9. Add two cards with photos and text (make sure to update the `<img src="">` and `<p class="card-text">`)
